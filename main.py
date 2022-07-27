@@ -21,7 +21,7 @@ class Cities(db.Model):
     city = db.Column(db.String(100), nullable=False, unique=True)
 
 
-db.create_all()
+# db.create_all()
 
 
 def weather_data_retrive():
